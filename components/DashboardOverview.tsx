@@ -36,7 +36,7 @@ export default function DashboardOverviewPanel({
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-7">
-        <StatCard label="Applicants" value={overview.summary.totalApplicants} accent />
+        <StatCard label="Applicants" value={overview.summary.totalApplicants} />
         <StatCard label="Submitted" value={overview.summary.submitted} />
         <StatCard label="Under review" value={overview.summary.underReview} />
         <StatCard label="Approved" value={overview.summary.approved} />
